@@ -21,7 +21,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 
 	/**
-	Testing changes
+	Testing changes biren
 	*/
 		http.authorizeRequests()
 			.antMatchers("/admin/**").access("hasRole('ROLE_USER')")
